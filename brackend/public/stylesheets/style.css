@@ -1,0 +1,84 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*===========NavBar==========*/
+
+.logo__header{
+  width: 100px;
+  padding: 20px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #65A0FC;
+}
+
+.title__header{
+  font-size: 3.5rem;
+}
+
+/*===========Footer==========*/
+
+footer{
+  background-color: #E5E5E5;
+  height: auto;
+  width: 100%;
+  color: #5f4649;
+  padding-top: 10px;
+  margin-top: auto;
+}
+
+.footer-conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-conteiner h3{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0%;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #5f4649;
+}
+
+.socials a i{
+  font-size: 20px;
+  transition: color .5s linear;
+}
+
+.socials a:hover{
+  color: #FCC165;
+}
+
+.footer-botton{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}

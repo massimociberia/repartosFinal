@@ -1,0 +1,269 @@
+.container{
+    display: flex;
+    margin: auto    ;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 35vw;
+    height: 25vh;
+    /* padding: 30px 30px; */
+    border-radius: 7px;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+}
+
+.form__input{
+    padding-top: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+.input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #65A0FC;
+    width: 20vw;
+}
+
+.button{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background-color: #65A0FC;
+    border-radius: 15px;
+    transition: all .3s linear;
+}
+
+.button:hover{
+    background-color: #FCC165;
+}
+
+.input:hover{
+    border-bottom: 2px solid #FCC165;
+}
+
+.form__input:focus{
+    border-bottom: 2px solid #FCC165;
+}
+
+.parrafo{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button_logout{
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+    width: auto;
+    height: 50px;
+}
+
+.logout_container{
+    display: flex;
+    justify-content: end;
+    margin: 40px;
+}
+
+.logout_p{
+    padding-right: 10px;
+}
+
+.table__title{
+    display: flex;
+    justify-content: space-around;
+    background-color: #111;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h3__table{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.button__nuevo{
+    background-color: #12A600;
+    border: none;
+    width: 90px;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.table_i{
+    padding: 3px;
+}
+.button__nuevo_a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.table__container{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    display: flex;
+}
+
+.table{
+    width: 100%;
+}
+
+.table__thead{
+    font-size: 1.5rem;
+}
+
+.table__tbody{
+    text-align: center;
+    margin: 10px;
+}
+
+.table__button{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #fff;
+    background-color: #777;
+    border-radius: 5px;
+    width: 100px;
+    
+}
+
+td{
+    padding: 20px;
+    height: 25px;
+}
+
+.agregar__container{
+    width: 35vw;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+textarea{
+    width: 20vw;
+    height: 15vh;
+}
+
+.agregar__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.agregar__input2{
+    width: 20vw;
+    outline: none;
+    border: none;
+}
+
+.agregar__input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #65A0FC;
+    margin: 20px;
+}
+
+.agregar__button{
+    background-color: #65A0FC;
+    border-radius: 7px;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.agregar__h4{
+    font-size: 1.5em;
+}
+
+.parrafo2{
+    text-align: center;
+}
+
+.modificar__container{
+    display: flex;
+    width: 35vw;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.modificar__form{
+    margin: auto;
+}
+
+.modificar__input{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    padding: 20px;
+}
+.modificar__input2{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #65A0FC;
+}
+
+label{
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.modificar__h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.modificar__button{
+    border: none;
+    background-color: #65A0FC;
+    color: #fff;
+    border-radius: 7px;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modificar__button:hover{
+    background-color: #FCC165;
+}
+
+.modificar__input2:focus{
+    border-bottom: 2px solid #FCC165;
+}
+
+.modificar__input2:hover{
+    border-bottom: 2px solid #FCC165;
+}

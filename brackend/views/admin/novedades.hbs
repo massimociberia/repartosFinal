@@ -1,0 +1,33 @@
+<div class="logout_container">
+    <p class="logout_p" >Hola {{usuario}}!{{!-- <a class="button_a" href="/admin/login/logout">Cerrar sesion <i class="fas fa-sign-out-alt"></i></a> --}}</p>
+    <button class="button_logout"><a class="button_a" href="/admin/login/logout">Cerrar sesion <i class="fas fa-sign-out-alt"></i></a></button>
+</div>
+<div class="table__title">
+    <h3 class="h3__table">Listado de novedades</h3>
+    <button class="button__nuevo"><a class="button__nuevo_a" href="/admin/novedades/agregar"><i class="fa fa-plus table_i"></i>Nuevo</a></button>
+</div>
+<div class="table__container">
+    <table class="table">
+        <thead class="table__thead">
+            <tr class="table__tr">
+                <th>#</th>
+                <th>Titulo</th>
+                <th>Imagen</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody class="table__tbody">
+            {{#each novedades}}
+            <tr>
+                <th>{{id}}</th>
+                <td>{{titulo}}</td>
+                <td>{{{imagen}}}</td>
+                <td>
+                    <a class="table__button" href="/admin/novedades/modificar/{{id}}"><i class="fa fa-pencil"></i></a>
+                    <a class="table__button" href="/admin/novedades/eliminar/{{id}}"><i class="fa fa-trash"></i></a>
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
